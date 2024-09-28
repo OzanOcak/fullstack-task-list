@@ -14,13 +14,20 @@ This is a full stack project
 
 - React
 - TypeScript
+- TailwindCSS
 
 ### Setting up the project
+
+First run the following command to create .env file
+
+```bash
+cd server
+cp .env.local .env
+```
 
 PostgreSQL is running on docker so we need to start docker container first
 
 ```bash
-cs server
 docker compose up -d
 ```
 
